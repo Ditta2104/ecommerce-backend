@@ -5,60 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title')</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #ffffff;
-            color: #333;
-        }
-        .unab-orange {
-            color: #FF6B35;
-        }
-        .unab-bg-orange {
-            background-color: #FF6B35;
-            color: #fff;
-        }
-        .navbar-unab {
-            background-color: #FF6B35;
-            padding: 10px 0;
-        }
-        .navbar-unab .navbar-brand img {
-            max-width: 150px;
-        }
-        .navbar-unab .nav-link {
-            color: #fff !important;
-            font-weight: bold;
-        }
-        .navbar-unab .nav-link:hover {
-            color: #f8f9fa !important;
-        }
-        .form-container {
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            background-color: #f9f9f9;
-        }
-        .form-container h2 {
-            text-align: center;
-            color: #FF6B35;
-        }
-        .form-container label {
-            font-weight: bold;
-        }
-        .form-container .btn-submit {
-            background-color: #FF6B35;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            font-weight: bold;
-            width: 100%;
-        }
-        .form-container .btn-submit:hover {
-            background-color: #e65a2b;
-        }
-    </style>
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
 </head>
 <body>
     <!-- Navbar UNAB -->
